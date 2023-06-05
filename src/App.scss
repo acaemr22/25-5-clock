@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    width: 100vw;
+    height: 100vh;
+    body {
+        @extend html;
+        background-color:white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #A5D7E8;
+        background-color: #0B2447;
+    }
+}
+
+
+
+.App { 
+    width: 750px;
+    height: 100vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.title {
+    color: #A5D7E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+// Timer CSS
+#timer-label {
+    border: solid #576CBC 8px !important;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+#video-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer-title {
+    font-size: 35px;
+}
+
+#time-left {
+    font-size: 60px;
+} 
+
+
+// Inside of timer-controls css
+#start_stop {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#reset {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+// Section and Break Labels
+
+.labels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#break-label {
+    margin-right: 20px;
+}
+
+#session-label {
+    margin-left: 20px;
+}
+
+// Titles of labels css
+
+.label-title {
+    font-size: 25px;
+}
+// Body parts of Break and session
+.part-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+i {
+    color: #A5D7E8;
+    font-size: 35px;
+}
+
+
+button {
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+.length {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.increment {
+    margin-left: 7px;
+}
+
+.decrement {
+    margin-right: 7px;
+}
+
+
+// Footer CSS
+.author {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: red
+}
+
+.red {
+    color: red;
+}
+
